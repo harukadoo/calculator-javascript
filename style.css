@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main__container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main__content{
+    width: max-content;
+    height: max-content;
+    padding: 88px 12px 25px 12px;
+    border: 2px solid black;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.content__result{
+    background-color: rgb(22, 22, 22);
+    border: none;
+    height: 80px;
+    width: 340px;
+    color: white;
+    font-size: 72px;
+    padding: 10px;
+}
+
+.calc__button{
+    cursor: pointer;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    border-radius: 50%;
+}
+
+.operation{
+    background-color: rgb(255, 162, 1);
+}
+
+.operation:focus{
+    background-color: white;
+    color: rgb(255, 162, 1);
+}
+
+div[class*="row"]{
+    display: flex;
+    gap: 10px;
+}
+
+.CE{
+    flex-grow: 2;
+    font-size: 40px;
+    border: none;
+    border-radius: 45px;
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+.C{
+    flex-grow: 2;
+    font-size: 40px;
+    border: none;
+    border-radius: 45px;
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+.equal{
+    font-size: 40px;
+    flex-grow: 2;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(255, 162, 1);
+    color: white;
+    cursor: pointer;
+}
+
