@@ -18,11 +18,7 @@ function numberPress(number) {
         result.value = number;
         MemoryNewNumber = false;
     } else {
-        if (result.value === "") {
-            result.value = number;
-        } else {
-            result.value += number;
-        };
+        result.value += number;
     };
 };
 
