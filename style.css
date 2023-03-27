@@ -65,6 +65,7 @@ div[class*="row"]{
     border-radius: 45px;
     background-color: rgb(180, 180, 180);
     cursor: pointer;
+    color: white;
 }
 
 .C{
@@ -74,6 +75,7 @@ div[class*="row"]{
     border-radius: 45px;
     background-color: rgb(180, 180, 180);
     cursor: pointer;
+    color: white;
 }
 
 .equal{
